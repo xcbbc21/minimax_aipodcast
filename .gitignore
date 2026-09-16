@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志
+*.log
+
+# 临时
+*.tmp
+*.temp
+.cache/
+
+# 环境变量
+.env
+.env.local
+
+# aipodcast 本地缓存
+.aipodcast_cache/
+
+# 用户私有项目产物(不属于本包源码)
+*VoD*.md
+*VoD*.mp3
+*VoD-*-TTS-ready.md
